@@ -1,7 +1,65 @@
 h1{
-    color: #000;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+    margin-left: 5%;
+    color: white;
 }
 
-body{
-    background-color: #FFC100;
+body {
+    background-color: #5b6571;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #4f5965;
+    padding: 0px;
+    color: white;
+    margin: 0;
+    border: none;
+    display: inline-flex;
+    width: 100%;
+    margin: 0%;
+}
+
+.navlink{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.navlink:hover{
+    background-color: #8AA2A9;
+    color: white;
+}
+
+.navlinks {
+    padding: 10px;
+    display: inline-flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.bodytext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.currentpage{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.785);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: #90BAAD;
+}
+
+.currentpage:hover{
+    background-color: #769f92;
+    color: rgba(0, 0, 0, 0.785);
 }

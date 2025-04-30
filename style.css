@@ -63,3 +63,17 @@ body {
     background-color: #769f92;
     color: rgba(0, 0, 0, 0.785);
 }
+
+.bott{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #4f5965;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.linkdlink{
+    position: center;
+}

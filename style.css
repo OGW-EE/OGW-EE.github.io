@@ -77,3 +77,26 @@ body {
 .linkdlink{
     position: center;
 }
+
+.projectlibrary{
+
+}
+
+.projectshelf{
+    float:left;
+    width: 50%;
+}
+
+@media screen and (max-width: 600px){
+    .projectshelf{
+        width: 100%;
+    }
+}
+
+.pplink{
+
+}
+
+.pplink:hover{
+
+}
